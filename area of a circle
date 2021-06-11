@@ -1,0 +1,16 @@
+//integer radius,area
+//printf("enter radious of the cicle");
+//area=3.142*radius*radius;
+//printf("area of the cicle");
+//program to find the area of the  circle
+
+#include<stdio.h>
+int main()
+{
+  float area,radius;
+  printf("enter the radius of the circle");
+  scanf("%f",area);
+  area=3.142*radius*radius;
+  printf("area of a circle %f",area);
+  return 0;
+}
