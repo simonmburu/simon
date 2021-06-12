@@ -1,0 +1,29 @@
+//program ro display atea of a rectangle
+//length(L)
+//width(W)
+//Area=length*width
+//
+
+//integer L,W,Area;
+//printf("enter length\n");
+//scanf("%d",&L);
+//printf("enter width\n");
+//scanf("%d",&W);
+//Area=length*width;
+//print("area of a rectangle%d\n",Area);
+
+#include<stdio.h>
+int main()
+{
+ int W,L,Area;
+ printf("enter length\n");
+ scanf("%d",&L);
+ 
+ printf("enter wdth\n");
+ scanf("%d",&W);
+  
+ Area=L*W;
+printf("Area of a lectangle %d\n",Area);
+ 
+return 0;
+}
