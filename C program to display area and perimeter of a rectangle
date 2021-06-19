@@ -1,0 +1,33 @@
+length
+//width
+//integer area,perimeter,L,W;
+//printf("enter length\n");
+//scanf("%d",&L);
+//printf("enter width\n);
+//scanf("%d",&w);
+//perimeter=2*(L+W);
+//area=L*W;
+
+//printf("area%d\n:perimeter%d\n",area,perimeter);
+
+//PROGRAM TO DISPLAY AREA AND PERIMETER OF A RECTANGLE
+#include<stdio.h>
+
+
+int main()
+{
+    int area,perimeter,L,W;
+    
+    printf("enter length\n");
+    scanf("%d",&L);
+    
+    printf("enter width\n");
+    scanf("%d",&W);
+    
+    perimeter=2*(L+W);
+    area=L*W;
+    
+    printf("area%d\nperimeter%d\n",area,perimeter);
+    
+    return 0;
+}
