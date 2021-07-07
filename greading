@@ -1,0 +1,29 @@
+//c program to find grade of a student
+#include <stdio.h>
+int main()
+{
+int a;
+printf("enter the value:a\n");
+scanf("%d",&a);	
+if(69<a)
+{
+	printf("A");
+}
+else if(59<a)
+{
+	printf("B");
+}
+else if(49<a)
+{
+	printf("C");
+}
+else if(39<a)
+{
+	printf("D");
+}
+else
+{
+	printf("FAIL");
+}
+	return 0;
+}
